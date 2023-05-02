@@ -1,38 +1,73 @@
+html, body, #root{
+  height:100%;
+}
 .App {
-  text-align: center;
+  display:flex;
+  flex-direction: column;
+  background-color: #f4eade;
+  height: 100%;
+ 
+
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.componentcontainer {
   display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+
+}
+.component {
+  display:flex;
   flex-direction: column;
   align-items: center;
+  height:100%;
+}
+
+
+.upban {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+  background-color: #556850;
+}
+.upbannerbutton {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-decoration: none;
+  height:50px;
+  width:33%;
+
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+.botban {
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #556850;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.botbannerbutton{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  height:50px;
+  width:20%;
+}
+
+
+
+.buttonlink {
+  text-decoration: none;
+  color:black;
 }
