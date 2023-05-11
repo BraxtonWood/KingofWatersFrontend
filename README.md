@@ -1,3 +1,5 @@
+# KingofWatersFrontend
+the front end of an application that allows users to report caught fish and compare with friends or others based on location
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
